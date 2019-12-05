@@ -49,6 +49,7 @@ def start():
             check(choice, comp)
         cond = int(input("\n\n\n\t\t\t\t\tEnter 1 to continue & 0 to exit... "))
         
-start()
+start():
+print("\033[H\033[J")
 
 ```
