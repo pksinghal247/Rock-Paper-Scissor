@@ -1,5 +1,11 @@
-import random
+# Rock-Paper-Scissor
+Rock-Paper-Scissor game for one Player vs Computer in Python.
 
+## Happy Coding :)
+
+```python
+
+import random
 
 def Menu():
     print("\n\n\t\t\t\t\tEnter 1 for Rock.")
@@ -42,4 +48,7 @@ def start():
             print("\t\t\t\t\tComputer : ",com)
             check(choice, comp)
         cond = int(input("\n\n\n\t\t\t\t\tEnter 1 to continue & 0 to exit... "))
+        
 start()
+
+```
