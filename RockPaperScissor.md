@@ -1,7 +1,7 @@
 # Rock-Paper-Scissor
 Rock-Paper-Scissor game for one Player vs Computer in Python.
 
-## Happy Coding :)
+## Happy Coding 😊
 
 ```python
 
