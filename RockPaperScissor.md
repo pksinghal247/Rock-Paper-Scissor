@@ -31,8 +31,8 @@ def check(num, comp):
         print("\n\n\t\t\t\t\tYou Win...")
 
 def start():
-    cond = 1
-    while cond == 1:
+    cond = '1'
+    while cond != '0':
         print("\033[H\033[J")
         print("\n\n\t\t\t\t\t************************************")
         print("\t\t\t\t\t| Rock-Paper-Scissor By PK Singhal |")
@@ -47,7 +47,7 @@ def start():
             print("\n\t\t\t\t\tYou      : ",player)
             print("\t\t\t\t\tComputer : ",com)
             check(choice, comp)
-        cond = int(input("\n\n\n\t\t\t\t\tEnter 1 to continue & 0 to exit... "))
+        cond = input("\n\n\n\t\t\t\t\tEnter any to continue or 0 to exit... ")
         
 start():
 print("\033[H\033[J")
